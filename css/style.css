@@ -124,7 +124,7 @@ a {
     display: block;
     width: 100%;
     height: 2px;
-    background: #000;
+    background: #305C2D;
 }
 
 .burger__line_first {
@@ -783,6 +783,8 @@ input[type='button']:hover {
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 45px;
+    padding: 0 15px;
+    justify-content: center;
 }
 
 
@@ -803,13 +805,14 @@ input[type='button']:hover {
 }
 
 .footer__menu {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .footer__nav {
     display: flex;
     flex-wrap: wrap;
     height: auto;
+    justify-content: space-around;
 }
 
 .footer__menu-title {
@@ -828,9 +831,16 @@ input[type='button']:hover {
     margin-bottom: 10px;
 }
 
-.address {
-    margin-top: 40px;
-    margin-left: 40px;
+.address-city {
+    margin-left: 100px;
+}
+
+.address-phone {
+    margin-left: 80px;
+}
+
+.address-email {
+    margin-left: 105px;
 }
 
 .footer__menu-link:hover, .footer__menu-link:focus, .footer__menu-link:active {
@@ -871,6 +881,7 @@ input[type='button']:hover {
         top: 750px;
     }
 }
+
 
 @media screen and (max-width: 820px) {
     /*header Media*/
@@ -957,7 +968,9 @@ input[type='button']:hover {
     input[type='button'] {
         bottom: -40px;
     }
+
 }
+
 
 @media screen and (max-width: 600px) {
     .header__button {
@@ -1050,5 +1063,40 @@ input[type='button']:hover {
         bottom: 0;
     }
 
+
+}
+@media screen and (max-width: 440px) {
+    .footer__menu {
+        margin-left: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .intro {
+        min-height: 470px;
+    }
+
+    .header__burger {
+        width: 30px;
+        height: 18px;
+    }
+
+    .header__logo {
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .address-city {
+        margin-left: 30px;
+    }
+
+    .address-phone {
+        margin-left: 10px;
+    }
+
+    .address-email {
+        margin-left: 35px;
+    }
+    .footer__nav {
+        flex-wrap: wrap-reverse;
+    }
 
 }
