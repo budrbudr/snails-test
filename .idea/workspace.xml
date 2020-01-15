@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b4d5516-3721-4276-afb3-ca6a7ceef964" name="Default Changelist" comment="" />
+    <list default="true" id="9b4d5516-3721-4276-afb3-ca6a7ceef964" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+                <state relative-caret-position="364">
+                  <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
                   <folding>
                     <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -84,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="351" />
     <option name="y" value="92" />
     <option name="width" value="1359" />
@@ -167,7 +169,7 @@
       <workItem from="1578997582304" duration="28394000" />
       <workItem from="1579041937290" duration="186000" />
       <workItem from="1579077358945" duration="13232000" />
-      <workItem from="1579094631222" duration="1303000" />
+      <workItem from="1579094631222" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1579036219866</created>
@@ -222,13 +224,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76707000" />
+    <option name="totallyTimeSpent" value="76866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="81" width="1087" height="772" extended-state="0" />
+    <frame x="281" y="74" width="1087" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05142857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15238096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        <state relative-caret-position="364">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding>
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
