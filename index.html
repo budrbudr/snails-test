@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HappySnail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -83,14 +85,15 @@
             </p>
         </div>
         <div class="scroll">
-            <img src="./img/scroll.svg" alt="scroll" class="scroll-pic">
+            <a href="#about"><span class="scroll__arrow"></span></a>
+            <span class="scroll__text">scroll down</span>
         </div>
     </section>
 
     <section class="about">
 
         <div class="wrapper-about">
-            <h2 class="about__title">О Нас</h2>
+            <h2 class="about__title" id="about">О Нас</h2>
             <div class="about__rect"></div>
             <p class="about__subtitle">
                 Мы кипрская компания,
@@ -206,29 +209,51 @@
             </p>
             <div class="service__card">
                 <div class="service__card-block">
-                    <h4 class="service__card-title num">01.</h4>
-                    <h5 class="service__card-title text">Улитка</h5>
-                    <div class="service__card-rect"></div>
-                    <ul class="service__list">
-                        <li class="service__item">Продажа маточного стада</li>
-                        <li class="service__item">Продажа товарной (взрослая) улитки</li>
-                        <li class="service__item">Продажа 3-5 дневной улитки (малек)</li>
-                    </ul>
+                    <div class="service__card-initial">
+                        <h4 class="service__card-title num">01.</h4>
+                        <h5 class="service__card-title text">Улитка</h5>
+                        <div class="service__card-rect"></div>
+                        <ul class="service__list">
+                            <li class="service__item">Продажа маточного стада</li>
+                            <li class="service__item">Продажа товарной (взрослая) улитки</li>
+                            <li class="service__item">Продажа 3-5 дневной улитки (малек)</li>
+                        </ul>
+                    </div>
+                    <div class="service__card-hover">
+                        <button class="service__button">ПОДРОБНЕЕ</button>
+                    </div>
                 </div>
 
                 <div class="service__card-block">
-                    <button class="service__button">ПОДРОБНЕЕ</button>
+                    <div class="service__card-initial">
+                        <h4 class="service__card-title num">01.</h4>
+                        <h5 class="service__card-title text">Улитка</h5>
+                        <div class="service__card-rect"></div>
+                        <ul class="service__list">
+                            <li class="service__item">Продажа маточного стада</li>
+                            <li class="service__item">Продажа товарной (взрослая) улитки</li>
+                            <li class="service__item">Продажа 3-5 дневной улитки (малек)</li>
+                        </ul>
+                    </div>
+                    <div class="service__card-hover">
+                        <button class="service__button">ПОДРОБНЕЕ</button>
+                    </div>
                 </div>
 
                 <div class="service__card-block">
-                    <h4 class="service__card-title num">03.</h4>
-                    <h5 class="service__card-title text">Комбикорм</h5>
-                    <div class="service__card-rect"></div>
-                    <ul class="service__list">
-                        <li class="service__item">Комбикорм для малька</li>
-                        <li class="service__item">Комбикорм для подростка</li>
-                        <li class="service__item">Комбикорн для товарной улитки</li>
-                    </ul>
+                    <div class="service__card-initial">
+                        <h4 class="service__card-title num">03.</h4>
+                        <h5 class="service__card-title text">Комбикорм</h5>
+                        <div class="service__card-rect"></div>
+                        <ul class="service__list">
+                            <li class="service__item">Комбикорм для малька</li>
+                            <li class="service__item">Комбикорм для подростка</li>
+                            <li class="service__item">Комбикорн для товарной улитки</li>
+                        </ul>
+                    </div>
+                    <div class="service__card-hover">
+                        <button class="service__button">ПОДРОБНЕЕ</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -319,7 +344,7 @@
 
     </section>
 </main>
-<footer class="footer">
+<!--<footer class="footer">
     <div class="footer-wrapper">
         <nav class="footer__nav">
             <div class="footer__logo">
@@ -374,8 +399,81 @@
             </ul>
         </nav>
     </div>
+</footer>-->
+
+<footer class="footer-bootstrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-sm-4 col-md-4 col-lg-2 footer-group">
+                <img src="./img/svg/footer/logo.svg" alt="snail" class="footer__logo-pic">
+                <div class="footer__logo-social">
+                    <img src="./img/svg/footer/fb.svg" alt="fb" class="footer__social-pic">
+                    <img src="./img/svg/footer/inst.svg" alt="inst" class="footer__social-pic">
+                    <img src="./img/svg/footer/twitter.svg" alt="twitter" class="footer__social-pic">
+                </div>
+            </div>
+            <div class="col-4 col-sm-5 col-md-3 col-lg-2 footer-group">
+                <ul>
+                    <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">Главная</h3>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Услуги</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Технология</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Гастротуризм</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-5 col-md-4 col-lg-2 footer-group">
+                <ul>
+                    <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">Помощь</h3>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">О Нас</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Партнерам</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-auto col-sm-12 col-md-7 col-lg-4 footer-group">
+                <ul>
+                    <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">Контакты</h3>
+                    </li>
+                    <li class="footer__menu-item">
+                        Адрес: <span class="address-city">г.Харьков, ул И Сирка, 24</span>
+                    </li>
+                    <li class="footer__menu-item">
+                        Телефон: <span class="address-phone">+370 605 71486</span>
+                    </li>
+                    <li class="footer__menu-item">
+                        Email: <span class="address-email">happysnail@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
 </html>
