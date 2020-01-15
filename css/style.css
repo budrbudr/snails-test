@@ -306,8 +306,8 @@ a {
     width: 264px;
     height: 240px;
     margin-bottom: 100px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#A6E34F), to(rgba(255, 255, 255, 0)));
     background: -o-linear-gradient(top, #A6E34F 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#A6E34F), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(180deg, #A6E34F 0%, rgba(255, 255, 255, 0) 100%);
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
@@ -642,7 +642,8 @@ a {
 
 .service__card-hover {
     display: none;
-    background: rgba(255, 255, 254, 0.4);    width: 90%;
+    background: rgba(255, 255, 254, 0.4);
+    width: 90%;
     width: 86%;
     height: 91%;
     margin: 20px;
@@ -978,6 +979,7 @@ input[type='button']:hover {
     margin-bottom: 15px;
     margin-left: 20px;
 }
+
 .footer-group:nth-child(1) {
     margin: 0 auto 15px;
 }
@@ -1268,6 +1270,8 @@ input[type='button']:hover {
     }
 
     .footer__logo {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
         order: 2;
         margin-bottom: 10px;
     }
